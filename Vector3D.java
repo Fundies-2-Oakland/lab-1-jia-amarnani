@@ -1,8 +1,11 @@
 public class Vector3D {
 
     public static void main(String[] args) {
-
-
+        Vector3D vector3D = new Vector3D(1.5839, 4.8392, 3.294);
+        System.out.println("vector: " + vector3D);
+        System.out.println("x: " + vector3D.getX());
+        System.out.println("y: " + vector3D.getY());
+        System.out.println("z: " + vector3D.getZ());
 
     }
 
