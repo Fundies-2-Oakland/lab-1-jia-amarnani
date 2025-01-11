@@ -27,4 +27,9 @@ public class Vector3D {
     public double getZ() {
         return z;
     }
+
+    public String toString(){
+        return String.format("(%.2f, %.2f, %.2f)", x, y, z);
+    }
+
 }
